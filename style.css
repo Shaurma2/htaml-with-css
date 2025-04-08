@@ -1,0 +1,35 @@
+/* Стили для навигации */
+nav {
+  display: inline-block;
+  width: 80%;
+}
+
+/* Стили для логотипа в nav */
+nav img {
+  width: 10%;
+}
+
+/* Стили для grid */
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: space-around;
+  align-items: center;
+  row-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* Стили для flex-контейнера */
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/* Сброшенный стиль li (закомментировано) */
+/* li {
+  color: red;
+} */
